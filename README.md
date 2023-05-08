@@ -18,7 +18,7 @@ The algorithmic solution for QuickPushDataStructure involves inserting new eleme
 
 The code implements this algorithm using a linked list with a head node, a comparator to compare elements, and a ReentrantLock to ensure thread safety. It also provides an iterator to traverse the elements in the data structure.
 
-### Usage
+## Usage
 To use ```QuickPushDataStructure``` or ```QuickPopDataStructure```, you can create an instance of the class and then push elements onto the data structure using the push() method, for example:
 ```
 QuickPushDataStructure<Integer> stack = new QuickPushDataStructure<>();
@@ -33,3 +33,11 @@ Integer poppedElement = stack.pop();
 The pop() method returns the element that was popped from the data structure. If the data structure is empty, it returns null.
 
 If you want to use a custom Comparator to compare the elements in the data structure, you can pass it to the constructor.
+
+## Testing
+A test application has been provided to test the requirements mentioned above. The test application tests the following:
+
+* Push and pop operations for both classes.
+* The ability to hold different types of objects.
+* Pop operations returning the maximum value.
+* Multithreaded environment with multiple threads performing push and pop operations simultaneously.
