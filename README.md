@@ -40,4 +40,3 @@ A test application has been provided to test the requirements mentioned above. T
 * Push and pop operations for both classes.
 * The ability to hold different types of objects.
 * Pop operations returning the maximum value.
-* Multithreaded environment with multiple threads performing push and pop operations simultaneously.
